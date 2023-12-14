@@ -1,0 +1,73 @@
+.project-section {
+    background-color: #1a1a1a;
+}
+
+.project-title {
+    color: #EB5757;
+    font-size: 6rem;
+    margin: 0 2rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+.most-used-card {
+    position: relative;
+    margin: 10px;
+    height: 15rem;
+    width: 20vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    background-image: linear-gradient(45deg, #00FFF7, #EB5757);
+    transition: 0.3s ease-in;
+}
+
+.most-used-card:nth-child(even) {
+    background-image: linear-gradient(45deg, #EB5757, #00FFF7);
+}
+
+.most-used-card h2 {
+    position: absolute;
+    top: 5rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.most-used-card p {
+    position: absolute;
+    top: 10rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 24px;
+    font-size: 20px;
+}
+
+.link-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.most-used-card-btn {
+    position: absolute;
+    bottom: 2rem;
+    color: #fff;
+    text-align: center;
+    background-color: #131313;
+    border: 1px solid rgb(203, 198, 198);
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
